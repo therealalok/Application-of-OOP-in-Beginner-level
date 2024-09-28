@@ -1,0 +1,24 @@
+class Football:
+    def __init__(self, name, height, nationality,club):
+        self.name = name
+        self.height = height 
+        self.nationality=nationality 
+        self.club = club
+        
+
+    def display_info(self):
+        print(f"Player's Name: {self.name}")
+        print(f"Height: {self.height} meters")
+        print(f"Nationality: {self.nationality}")
+        print(f"Club: {self.club}")
+        
+
+
+ronaldo = Football("Cristiano Ronaldo", 1.87, "Portugal","Real Madrid")
+messi = Football("Lionel Messi", 1.70, "Argentina", "Barcelona")
+
+
+ronaldo.display_info()
+print()  
+print()
+messi.display_info()
